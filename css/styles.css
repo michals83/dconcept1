@@ -16,3 +16,16 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+.clickable {
+    cursor: pointer;
+}
+
+.panel {
+    margin-bottom: 5px !important;
+    border-radius: 0px !important;
+}
+
+.open {
+    background-color:#398eb5 !important;
+}
