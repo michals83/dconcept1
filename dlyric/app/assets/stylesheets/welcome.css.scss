@@ -1,0 +1,57 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    /*background-image: url('./img/no-repeat-background-html.jpg');
+    background-repeat: repeat;*/
+}
+.panel-default > .panel-heading {
+    background-color: #f5f5f5;
+}
+.panel-heading {
+    padding: 5px 15px;
+    border-bottom: 0px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: inherit;
+}
+.panel-body span {
+    display:block;
+}
+.panel-body {
+    padding: 0px 15px 5px;
+    background-color: #f5f5f5;
+    display:none;
+}
+.panel-footer {
+    background-color: #dcdcdc;
+}
+.userName {
+    position:relative;
+    float: right;
+}
+
+.page-header {
+  margin-top: 0;
+}
+
+.panel-body {
+  padding-top: 0;
+}
+
+.featuredImg {
+  margin-bottom: 15px;
+}
+
+.dlh4 {
+    padding-top: 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,31 @@
+# PSQL version 9.3
+
+production:
+    host: localhost
+    adapter: postgresql
+    database: dlyric
+    pool: 5
+    encoding: unicode
+    username: dlyric
+    password: dlyric
+
+development:
+    host: localhost
+    adapter: postgresql
+    database: dlyric_development
+    pool: 5
+    encoding: unicode
+    username: dlyric
+    password: dlyric
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+    host: localhost
+    adapter: postgresql
+    database: dlyric_test
+    pool: 5
+    encoding: unicode
+    username: dlyric
+    password: dlyric
