@@ -60,3 +60,17 @@ body {
     float: none !important;
     margin: auto;
 }
+
+.home-button {
+    font-size: 18px;
+    color: white;
+    display: block;
+    width: 120px;
+    float: left;
+    margin: 15px;
+    &:hover {
+        color: white;
+        cursor:pointer;
+        text-decoration: none;
+    }
+}
