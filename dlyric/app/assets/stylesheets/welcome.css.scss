@@ -16,10 +16,9 @@ body {
     border-top-right-radius: 3px;
 }
 .panel-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 14px;
+    font-size: 16px;
     color: inherit;
+    margin: 5px 5px 5px 15px;
 }
 .panel-body span {
     display:block;
@@ -43,6 +42,9 @@ body {
 
 .panel-body {
   padding-top: 0;
+  span {
+    font-size: 16px;
+  }
 }
 
 .featuredImg {
