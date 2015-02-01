@@ -1,15 +1,14 @@
 class CreateUsers < ActiveRecord::Migration
   def up
     create_table :users do |t|
-      t.int :id
       t.string :email
       t.string :password
       t.string :name
-      t.int :level
+      t.integer :level
       t.timestamps
     end
 
-    add_index :users, [:id, :email]
+    add_index :users, [:email]
   end
 
   def down
