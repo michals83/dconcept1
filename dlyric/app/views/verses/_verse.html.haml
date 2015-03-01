@@ -1,0 +1,29 @@
+.col-md-4.center
+  .panel.panel-default
+    .verse-panel-heading.clickable
+      .panel-title
+        = verse.title
+    .panel-body 
+      -# we need a better way to do break up verse lines. 
+      - verse.body.each do |line|
+        %span= line
+      .btn-group.btn-group-justified
+        .btn-group
+          %button.btn.btn-default{:type => "button"}
+            Like This
+        .btn-group
+          %button.btn.btn-default{:type => "button"}
+            SMH
+    .panel-footer
+      %span
+        Points:
+        %b
+          123
+      %span.userName
+        %b
+          userName
+          %iframe{:allowtransparency => "true", :scrolling => "no", :frameborder => "no", :src => "https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fundefined&color=orange_white&size=16", :style =>"width: 16px; height: 16px;"}
+          123
+      %span.glypicon.glypicon-certificate.gold
+      %span.glyphicon.glyphicon-certificate.silver
+      %span.glyphicon.glyphicon-certificate.bronze
