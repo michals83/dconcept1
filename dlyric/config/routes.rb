@@ -53,5 +53,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  match 'about', to: 'welcome#about', via: :all
   root :to =>"welcome#index"
 end

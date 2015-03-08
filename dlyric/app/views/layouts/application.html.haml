@@ -23,7 +23,7 @@
               %a
                 Login
             %li
-              %a
+              %a{:href => '/about'}
                 About
     .col-md-4.center
       .panel.panel-default
@@ -98,8 +98,7 @@
       .jumbotron
         %h1.submitVerse
           Submit Verse
-    - @verses.each do |verse|
-      = render 'verses/verse', :verse => verse
+    = yield
 
     .navbar.navbar-default.navbar-fixed-bottom
       .container
