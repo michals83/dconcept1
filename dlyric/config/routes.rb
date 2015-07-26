@@ -54,5 +54,8 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   match 'about', to: 'welcome#about', via: :all
+  get "sign_up" => "users#new", :as => "sign_up"
+
+  resources :users
   root :to =>"welcome#index"
 end
